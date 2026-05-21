@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "eyebrow": "Demo Benchmark",
+    "title": "World-Knowledge Visual Generation Leaderboard",
+    "subtitle": "This is an anonymized demo leaderboard with synthetic scores. It is intended for public GitHub Pages preview only and does not contain internal model names, private evaluation data, or company-specific information.",
+    "scoreRange": "0–1",
+    "footerNote": "Note: all model names and scores are synthetic placeholders for public demonstration. Replace this JSON with real data only in a private/internal deployment."
+  },
+  "models": [
+    {
+      "key": "model_alpha",
+      "name": "Model Alpha",
+      "logo": "A"
+    },
+    {
+      "key": "model_beta",
+      "name": "Model Beta",
+      "logo": "B"
+    },
+    {
+      "key": "model_gamma",
+      "name": "Model Gamma",
+      "logo": "G"
+    },
+    {
+      "key": "model_delta",
+      "name": "Model Delta",
+      "logo": "D"
+    },
+    {
+      "key": "model_epsilon",
+      "name": "Model Epsilon",
+      "logo": "E"
+    },
+    {
+      "key": "model_zeta",
+      "name": "Model Zeta",
+      "logo": "Z"
+    },
+    {
+      "key": "model_eta",
+      "name": "Model Eta",
+      "logo": "H"
+    },
+    {
+      "key": "model_theta",
+      "name": "Model Theta",
+      "logo": "T"
+    },
+    {
+      "key": "model_iota",
+      "name": "Model Iota",
+      "logo": "I"
+    },
+    {
+      "key": "model_kappa",
+      "name": "Model Kappa",
+      "logo": "K"
+    }
+  ],
+  "sliceGroups": {
+    "domain": {
+      "label": "Overall & Top-level Domains",
+      "order": 1,
+      "slices": [
+        {
+          "key": "all",
+          "label": "🏆 Overall",
+          "shortLabel": "Overall",
+          "values": [0.78, 0.71, 0.66, 0.59, 0.57, 0.52, 0.48, 0.43, 0.39, 0.34]
+        },
+        {
+          "key": "natural_science",
+          "label": "Natural Science",
+          "values": [0.76, 0.69, 0.64, 0.61, 0.55, 0.50, 0.46, 0.41, 0.37, 0.32]
+        },
+        {
+          "key": "formal_science",
+          "label": "Formal Science",
+          "values": [0.81, 0.73, 0.68, 0.56, 0.60, 0.54, 0.49, 0.45, 0.42, 0.35]
+        },
+        {
+          "key": "human_civilization_society",
+          "label": "Human Civilization & Society",
+          "values": [0.77, 0.72, 0.69, 0.62, 0.58, 0.53, 0.51, 0.47, 0.43, 0.38]
+        },
+        {
+          "key": "arts_media_design",
+          "label": "Arts, Media & Design",
+          "values": [0.80, 0.74, 0.70, 0.63, 0.61, 0.56, 0.50, 0.46, 0.41, 0.36]
+        }
+      ]
+    },
+    "subdomain": {
+      "label": "Knowledge Subdomains",
+      "order": 2,
+      "slices": [
+        {
+          "key": "physics",
+          "label": "Physics",
+          "values": [0.74, 0.66, 0.61, 0.58, 0.52, 0.48, 0.44, 0.39, 0.35, 0.30]
+        },
+        {
+          "key": "chemistry",
+          "label": "Chemistry",
+          "values": [0.72, 0.65, 0.59, 0.57, 0.53, 0.47, 0.42, 0.38, 0.34, 0.29]
+        },
+        {
+          "key": "biology",
+          "label": "Biology",
+          "values": [0.79, 0.71, 0.66, 0.62, 0.58, 0.51, 0.48, 0.43, 0.39, 0.33]
+        },
+        {
+          "key": "earth_astronomy",
+          "label": "Earth Science & Astronomy",
+          "values": [0.82, 0.75, 0.70, 0.64, 0.60, 0.55, 0.50, 0.46, 0.41, 0.37]
+        },
+        {
+          "key": "mathematics",
+          "label": "Mathematics",
+          "values": [0.83, 0.76, 0.69, 0.60, 0.62, 0.56, 0.51, 0.47, 0.44, 0.36]
+        },
+        {
+          "key": "logic_computation",
+          "label": "Logic & Computation",
+          "values": [0.80, 0.72, 0.68, 0.59, 0.57, 0.53, 0.49, 0.44, 0.40, 0.35]
+        },
+        {
+          "key": "history_culture",
+          "label": "History & Culture",
+          "values": [0.76, 0.73, 0.70, 0.65, 0.59, 0.54, 0.51, 0.48, 0.43, 0.39]
+        },
+        {
+          "key": "geography_society",
+          "label": "Geography & Society",
+          "values": [0.78, 0.70, 0.67, 0.63, 0.57, 0.52, 0.50, 0.45, 0.42, 0.37]
+        },
+        {
+          "key": "architecture_artifacts",
+          "label": "Architecture & Artifacts",
+          "values": [0.81, 0.77, 0.72, 0.66, 0.63, 0.58, 0.53, 0.49, 0.44, 0.40]
+        },
+        {
+          "key": "language_symbols",
+          "label": "Language & Symbols",
+          "values": [0.69, 0.64, 0.61, 0.55, 0.50, 0.46, 0.41, 0.36, 0.32, 0.28]
+        },
+        {
+          "key": "systems_processes",
+          "label": "Systems & Processes",
+          "values": [0.75, 0.69, 0.63, 0.60, 0.54, 0.49, 0.45, 0.40, 0.36, 0.31]
+        },
+        {
+          "key": "visual_communication",
+          "label": "Visual Communication",
+          "values": [0.84, 0.78, 0.73, 0.68, 0.64, 0.60, 0.55, 0.51, 0.46, 0.42]
+        }
+      ]
+    },
+    "education": {
+      "label": "Education Level",
+      "order": 3,
+      "slices": [
+        {
+          "key": "primary_school",
+          "label": "Primary School",
+          "values": [0.86, 0.80, 0.76, 0.70, 0.67, 0.62, 0.58, 0.53, 0.48, 0.43]
+        },
+        {
+          "key": "junior_high_school",
+          "label": "Junior High School",
+          "values": [0.80, 0.73, 0.69, 0.63, 0.60, 0.55, 0.50, 0.45, 0.41, 0.36]
+        },
+        {
+          "key": "high_school",
+          "label": "High School",
+          "values": [0.75, 0.69, 0.64, 0.58, 0.55, 0.50, 0.46, 0.41, 0.37, 0.32]
+        },
+        {
+          "key": "university",
+          "label": "University",
+          "values": [0.70, 0.63, 0.59, 0.53, 0.50, 0.45, 0.41, 0.37, 0.33, 0.29]
+        },
+        {
+          "key": "professional",
+          "label": "Professional",
+          "values": [0.66, 0.60, 0.55, 0.49, 0.47, 0.42, 0.38, 0.34, 0.30, 0.26]
+        }
+      ]
+    },
+    "operation": {
+      "label": "Knowledge Operation",
+      "order": 4,
+      "slices": [
+        {
+          "key": "explicit_rendering",
+          "label": "Explicit Knowledge Rendering",
+          "values": [0.84, 0.78, 0.73, 0.68, 0.64, 0.59, 0.55, 0.50, 0.45, 0.40]
+        },
+        {
+          "key": "explicit_recall",
+          "label": "Explicit Knowledge Recall",
+          "values": [0.79, 0.72, 0.67, 0.61, 0.58, 0.53, 0.49, 0.44, 0.39, 0.35]
+        },
+        {
+          "key": "implicit_recall",
+          "label": "Implicit Knowledge Recall",
+          "values": [0.73, 0.66, 0.62, 0.56, 0.53, 0.48, 0.44, 0.39, 0.35, 0.30]
+        },
+        {
+          "key": "knowledge_reasoning",
+          "label": "Knowledge Reasoning",
+          "values": [0.68, 0.61, 0.57, 0.51, 0.48, 0.43, 0.39, 0.35, 0.31, 0.27]
+        }
+      ]
+    }
+  }
+}
