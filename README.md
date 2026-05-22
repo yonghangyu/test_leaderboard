@@ -1,21 +1,27 @@
-# Benchmark Name
+# World-Knowledge Visual Generation Leaderboard
 
-> An anonymized demo leaderboard for evaluating world-knowledge visual grounding in image generation models.
+This repository hosts an anonymized demo leaderboard for world-knowledge visual generation evaluation.
 
-## Preview
+## 🔗 Live Demo
 
-[![Leaderboard Preview](assets/leaderboard_preview.png)](https://yonghangyu.github.io/test_leaderboard/)
+👉 **[View the Interactive Leaderboard](https://yonghangyu.github.io/test_leaderboard/)**
 
-## News
+## Overview
 
-- 2026-05-21: Demo leaderboard released.
+The leaderboard presents synthetic, anonymized model scores across multiple evaluation slices, including:
 
-## Leaderboard
+- Overall and top-level domains
+- Knowledge subdomains
+- Education levels
+- Knowledge operation types
 
-The interactive leaderboard is available here:
+All model names and scores in this public demo are placeholders.  
+No internal model names, private evaluation data, or company-specific information are included.
 
-👉 https://yonghangyu.github.io/test_leaderboard/
+## Project Structure
 
-## Disclaimer
-
-This public demo uses synthetic and anonymized data only.
+```text
+.
+├── index.html
+├── leaderboard.json
+└── README.md
